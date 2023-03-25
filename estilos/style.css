@@ -39,6 +39,10 @@ main {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    /* Transição de Tamanho da Largura e Altura */
+    transition: width 0.7s height 0.7s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem {
