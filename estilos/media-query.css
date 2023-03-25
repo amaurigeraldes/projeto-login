@@ -39,7 +39,7 @@
 
     #login {
         width: 950vw;
-        height: 350px;
+        height: 380px;
     }
 
     #login {
@@ -47,7 +47,7 @@
     }
 
     #login > #imagem {
-        background-position: center center;
+        background-position: bottom center;
         float: right;
         width: 50%;
         height: 100%;
