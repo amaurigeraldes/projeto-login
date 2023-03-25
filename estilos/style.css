@@ -73,7 +73,7 @@ form > .campo {
     border: 2px solid #5f2c82;
     width: 100%;
     display: block;
-    height: 40px;
+    height: 30px;
     border-radius: 5px;
     margin: 5px 0px;
 }
@@ -85,7 +85,7 @@ form > .campo {
 .campo > i {
     color: white;
     /* background-color: black; */
-    font-size: 2em;
+    font-size: 1.5em;
     width: 40px;
     padding: 5px;
 }
@@ -101,7 +101,7 @@ form > .campo {
     border-radius: 5px;
     padding: 4px;
     /* Sempre fazer as Trnasformações no Final do Seletor */
-    transform: translateY(-12px);
+    transform: translateY(-9px);
 }
 
 .campo > input:focus-within {
@@ -111,9 +111,9 @@ form > .campo {
 
 form > input[type=submit] {
     display: block;
-    font-size: 1.0em;
+    font-size: 0.8em;
     width: 100%;
-    height: 40px;
+    height: 35px;
     background-color: #49a09d;
     color: white;
     border: none;
@@ -128,9 +128,9 @@ form > input[type=submit]:hover {
 form > a.botao {
     display: block;
     text-align: center;
-    font-size: 1.0em;
+    font-size: 0.8em;
     width: 100%;
-    height: 40px;
+    height: 35px;
     padding-top: 5px;
     margin-top: 5px;
     background-color: white;
@@ -145,5 +145,5 @@ form > a.botao:hover {
 }
 
 form > a.botao > i {
-    font-size: 1.0em;
+    font-size: 0.8em;
 }
