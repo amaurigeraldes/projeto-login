@@ -31,7 +31,6 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
     background-color: white;
@@ -41,15 +40,17 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 
     /* Transição de Tamanho da Largura e Altura */
-    transition: width .8s height .8s;
+    transition: width 1s height 1s;
     transition-timing-function: ease;
+    /* Sempre fazer as Trnasformações no Final do Seletor */
+    transform: translate(-50%, -50%);
 }
 
 #login > #imagem {
     display: block;
-    background: #5f2c82 url("../imagens/imagem01red.jpg") no-repeat;
+    background: #5f2c82 url("../imagens/imagem02red.jpg") no-repeat;
     background-size: cover;
-    /* background-position: left bottom; */
+    background-position: left bottom;
     height: 200px;
 }
 
@@ -69,6 +70,7 @@ main {
 
 form > .campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
@@ -78,6 +80,32 @@ form > .campo {
 
 .campo > label {
     display: none;
+}
+
+.campo > i {
+    color: white;
+    /* background-color: black; */
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    /* Função CALC da CSS para Ajuste da Largura */
+    width: calc(100% - 45px);
+    height: 95%;
+    
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    /* Sempre fazer as Trnasformações no Final do Seletor */
+    transform: translateY(-12px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 
