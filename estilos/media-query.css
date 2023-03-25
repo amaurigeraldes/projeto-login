@@ -19,13 +19,13 @@
     #login > #imagem {
         background-position: center center;
         float: left;
-        width: 30%;
+        width: 40%;
         height: 100%;
     }
 
     #login > #formulario {
         float: right;
-        width: 70%;
+        width: 60%;
     }
 }
 
